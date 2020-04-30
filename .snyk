@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-04-30T21:29:36.547Z'
+    - ember-cli > lodash:
+        patched: '2020-04-30T21:29:36.547Z'
+    - ember-cli > portfinder > async > lodash:
+        patched: '2020-04-30T21:29:36.547Z'
+    - broccoli-concat > broccoli-stew > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-04-30T21:29:36.547Z'
+    - ember-cli > broccoli-babel-transpiler > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-04-30T21:29:36.547Z'
+    - ember-cli > npm > request > form-data > async > lodash:
+        patched: '2020-04-30T21:29:36.547Z'
+    - ember-cli > broccoli-concat > broccoli-stew > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-04-30T21:29:36.547Z'
+    - ember-cli > ember-cli-preprocess-registry > broccoli-clean-css > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-04-30T21:29:36.547Z'
